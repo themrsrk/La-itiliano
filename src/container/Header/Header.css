@@ -1,14 +1,35 @@
 .app__header{
-    background-color: var(--background-black);
+    background-color: var(--color-black);
 }
 .app__header-h1{
-    color: var(--background-golden);
+    color: var(--color-golden);
     font-family: var(--font-base);
     letter-spacing: 0.04em;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height:117px;
     font-size: 90px;
+    font-weight: 700;
 }
-.app__wrapper_image{
-    
+.app__header-img img{
+    width: 20%;
 }
+
+/*
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-img img {
+    width: 80%;
+}
+*/
