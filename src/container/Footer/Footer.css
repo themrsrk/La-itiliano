@@ -67,7 +67,7 @@
         flex-direction: column;
         padding: 0;
     }
-    ..app__footer-links-contact,
+    .app__footer-links-contact,
     .app__footer-links-logo,
     .app__footer-links-work{
         margin: 2rem 0;
